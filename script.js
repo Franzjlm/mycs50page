@@ -14,11 +14,13 @@ let texts;
 if (window.location.pathname.includes("hobbies.html")) {
     texts = ["MARTIAL ARTS", "LORD OF THE RINGS", "ANIME", "TRAINING"];
 } else if (window.location.pathname.includes("index.html")) {
-    texts = ["ING. SYSTEMS STUDENT", "ARTIST", "YOUTUBER"];
+    texts = ["SYSTEMS ENGINEERING STUDENT", "ARTIST", "YOUTUBER"];
 } else if (window.location.pathname.includes("skills.html")) {
     texts = ["SOLVE PROBLEMS", "GENERAL VIEW", "FAST LEARNING", "TEAM WORK"];
 } else if (window.location.pathname.includes("contact.html")) {
     texts = ["EXPERIENCES", "KNOWLEDGES", "WORK"];
+} else {
+    texts = ["SYSTEMS ENGINEERING STUDENT", "ARTIST", "YOUTUBER"];
 }
 
 let speed = 100;

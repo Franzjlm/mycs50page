@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,9 +16,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <title>Francisco Webpage</title>
     </head>
+
     <body>
         <nav>
-            <div class ="nav-container">
+            <div class="nav-container">
                 <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
                     Francisco <span>Labarca</span>
                 </div>
@@ -29,46 +31,49 @@
                 </div>
                 <!--Hamburguer style bar from bootstrap-->
                 <i class="bi bi-list hamburg" onclick="hamburg()"></i>></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+                <i class="bi bi-x cancel" onclick="cancel()"></i>
             </div>
-                <div class="dropdown">
-                    <div class="links">
-                        <a href="index.html">Home</a>
-                        <a href="hobbies.html">Hobbies</a>
-                        <a href="skills.html">Skills</a>
-                        <a href="contact.html">Contact</a>
-                        <i class="bi bi-x cancel" onclick="cancel()"></i>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="carousel" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="gym.jpg" alt="Man smiling, wearing a purple suit, crossed arms">
+                <img src="anifan.jpg" alt="Man smiling, wearing a purple suit, crossed arms">
+                <img src="kungfu.jpg" alt="Man smiling, wearing a purple suit, crossed arms">
+                <img src="lord of the rings.jpg" alt="Man smiling, wearing a purple suit, crossed arms">
+            </div>
+            <div class="content" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                <h1>My <span>Hobbies</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Things i Love <span class="typewriter-text"></span><label for="">|</label>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">been practicing martial arts for years, loving a good story and classics like harry potter, but my favorite is lord of the rings,
+                        only the feel of succes when i found the solution in a code problem can win over those amazing fights in anime, and yeah training is part of my core, i need a strong body, to have a powerful mind.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/Franzjlm" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fab fa-github"></i></a>
+                        <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fab fa-instagram"></i></a>
+                        <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
-        </nav>
-        <section>
-            <div class="main-container">
-                <div class="carousel" data-aos="zoom-out" data-aos-duration="3000">
-                    <img src="gym.jpg" alt="Man smiling, wearing a purple suit, crossed arms">
-                    <img src="anifan.jpg" alt="Man smiling, wearing a purple suit, crossed arms">
-                    <img src="kungfu.jpg" alt="Man smiling, wearing a purple suit, crossed arms">
-                    <img src="lord of the rings.jpg" alt="Man smiling, wearing a purple suit, crossed arms">
-                </div>
-                <div class="content" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
-                    <h1>My <span>Hobbies</span></h1>
-                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Things i Love <span class="typewriter-text"></span><label for="">|</label>
-                        <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">been practicing martial arts for years, loving a good story and classics like harry potter, but my favorite is lord of the rings,
-                            only the feel of succes when i found the solution in a code problem can win over those amazing fights in anime, and yeah training is part of my core, i need a strong body, to have a powerful mind.
-                        </p>
-                        <div class="social-links">
-                            <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fab fa-github"></i></a>
-                            <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fab fa-instagram"></i></a>
-                            <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
         <!--AOS library for animation when opening the page-->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init({offset:0});
-        </script>
-        <script src="script.js"></script>
-    </body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 0
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
 </html>
 

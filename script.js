@@ -14,9 +14,9 @@ let texts;
 if (window.location.pathname.includes("hobbies.html")) {
     texts = ["MARTIAL ARTS", "LORD OF THE RINGS", "ANIME", "TRAINING"];
 } else if (window.location.pathname.includes("index.html")) {
-    texts = ["ING. SYSTEMS STUDENT", "ARTIST", "YOUTUBER"];
+    texts = ["SYSTEMS ENGINEERING STUDENT", "ARTIST", "YOUTUBER"];
 } else {
-    texts = ["DEFAULT TEXT"]; // Por si estás en otra página sin palabras definidas
+    texts = ["SYSTEMS ENGINEERING STUDENT", "ARTIST", "YOUTUBER"];
 }
 
 let speed  =100;
